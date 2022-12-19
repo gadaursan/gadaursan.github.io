@@ -1,0 +1,58 @@
+@use '../static/settings.scss';
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 2em;
+}
+
+.navList {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: #333;
+    vertical-align: bottom;
+    transition: color .3s ease-out;
+  }
+  a:hover {
+    color: settings.$primary;
+  }
+  a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-color: settings.$accent;
+    transition: transform .25s ease-out;
+  }
+
+  a:hover::before {
+    transform: translateY(0);
+    transition: transform .25s ease-out;
+  }
+}
+
+.homeIcon {
+  img {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    transition: box-shadow 250ms ease-in;
+    box-shadow: 0px 0px 10px transparent;;
+    &:hover {
+      box-shadow: 0px 0px 10px settings.$accent;
+    }
+  }
+}

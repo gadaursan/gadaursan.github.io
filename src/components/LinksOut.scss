@@ -1,0 +1,23 @@
+@use '../static/settings.scss';
+
+.linksOut {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 1.5em;
+}
+
+.button {
+  background-color: settings.$body;
+  padding: 0.7em;
+  border-radius: 50%;
+  transition: background-color 200ms ease-in;
+  &:hover {
+    background-color: settings.$accent;
+  }
+}
+
+.buttonIcon {
+  width: 1.7em;
+  height: auto;
+}
