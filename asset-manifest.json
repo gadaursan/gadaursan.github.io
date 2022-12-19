@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb4ae37.css",
-    "main.js": "/static/js/main.44db6b6f.js",
+    "main.css": "/static/css/main.1766a17d.css",
+    "main.js": "/static/js/main.34febfee.js",
+    "static/media/seamless_paper_texture.png": "/static/media/seamless_paper_texture.f9de7dc9de3487a5a4da.png",
+    "static/media/sissel img.png": "/static/media/sissel img.9c55e4ba60957bdc7aae.png",
+    "static/media/ao3.svg": "/static/media/ao3.03d7b61c12bb6a6d914eded204de6b96.svg",
+    "static/media/tumblr.svg": "/static/media/tumblr.8799a17c84909a448b055ca65a561e20.svg",
     "index.html": "/index.html",
-    "main.eeb4ae37.css.map": "/static/css/main.eeb4ae37.css.map",
-    "main.44db6b6f.js.map": "/static/js/main.44db6b6f.js.map"
+    "main.1766a17d.css.map": "/static/css/main.1766a17d.css.map",
+    "main.34febfee.js.map": "/static/js/main.34febfee.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb4ae37.css",
-    "static/js/main.44db6b6f.js"
+    "static/css/main.1766a17d.css",
+    "static/js/main.34febfee.js"
   ]
 }
