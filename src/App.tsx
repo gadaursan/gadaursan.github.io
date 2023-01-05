@@ -34,10 +34,10 @@ const App = () => {
             <Routes location={location}>
               {routes}
             </Routes>
+            <Footer />
           </div>
         </CSSTransition>
-      </SwitchTransition>
-      <Footer />
+      </SwitchTransition>     
     </div>
   )
 }
