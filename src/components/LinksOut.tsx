@@ -12,6 +12,7 @@ const LinksOut = () => {
   >
     <div className='button'>
       <img
+        draggable={false}
         className='buttonIcon'
         src={link.icon}
         alt={link.label}

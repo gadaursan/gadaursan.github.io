@@ -6,7 +6,7 @@ import '../components/Page.scss'
 const Home = () => {
   return (
     <React.Fragment>
-      <h1 className='username'>gadaursan</h1>
+      <div className='username'>this is <span>gadaursan</span></div>
       <div className="content">
         Hi. I write code, fics, and draw. Also I archive fandom things.
       </div>

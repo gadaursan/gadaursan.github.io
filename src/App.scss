@@ -1,8 +1,34 @@
+@use './static/settings.scss';
+
 .App {
   text-align: center;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50em;
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgba(settings.$background, 0.5);
+  backdrop-filter: blur(10px);
+  @media (max-width: 1200px) {
+    width: calc(100% - 20em);
+    margin: auto;
+  }
+  @media (max-width: 992px) {
+    width: calc(100% - 12em);
+    margin: auto;
+  }
+  @media (max-width: 576px) {
+    width: unset;
+    margin: 0;
+  }
+}
+
+.page {
+  margin: 1em;
 }
 
 @keyframes fadeInAnimation {

@@ -8,9 +8,9 @@
 }
 
 .button {
-  background-color: settings.$body;
   padding: 0.7em;
   border-radius: 50%;
+  background-color: rgba(settings.$accent, 0.5);
   transition: background-color 200ms ease-in;
   &:hover {
     background-color: settings.$accent;

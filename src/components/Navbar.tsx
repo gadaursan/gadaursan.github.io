@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='navContainer'>
       <NavLink className='homeIcon' to='/'>
-        <img src={profileImg} alt='profile icon'/>
+        <img draggable={false} src={profileImg} alt='profile icon'/>
       </NavLink>
       <div className='navList'>
         {links}

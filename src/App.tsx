@@ -7,6 +7,7 @@ import {
 import './App.scss';
 import {PAGES} from './pages/Page-DB';
 import Navbar from './components/Navbar'
+import Footer from './components/Footer';
 
 const App = () => {
   const location = useLocation()
@@ -29,14 +30,14 @@ const App = () => {
           classNames="fade"
           timeout={300}
         >
-          <div ref={nodeRef}>
+          <div className="page" ref={nodeRef}>
             <Routes location={location}>
               {routes}
             </Routes>
           </div>
         </CSSTransition>
       </SwitchTransition>
-      {/* Signature here */}
+      <Footer />
     </div>
   )
 }

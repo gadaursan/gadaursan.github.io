@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Personal Site and Hub
+
+Made this as a challenge to myself to see what I can do with React to make a carrd-like website. Pages are navigable via React-Router, and did some basic transitions and React to make pages from JSON objects.
+
+![Screenshot of website as of 1/4/2023](./screenshot.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

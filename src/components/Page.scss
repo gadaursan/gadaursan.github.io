@@ -3,56 +3,34 @@
 .content {
   max-width: 40em;
   margin: 0 auto 3em;
-  color: settings.$body;
-
+  color: settings.$body;  
   a {
+    color: settings.$accent;
     text-decoration: none;
-    line-height: 1;
-    position: relative;
-    z-index: 0;
-    display: inline-block;
-    padding: 5px 5px;
-    overflow: hidden;
-    color: #333;
-    vertical-align: bottom;
-    transition: color .3s ease-out;
-    &:hover {
-      color: settings.$primary;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      transform: translateY(calc(100% - 2px));
-      width: 100%;
-      height: 100%;
-      background-color: settings.$accent;
-      transition: transform .25s ease-out;
-    }
-  
-    &:hover::before {
-      transform: translateY(0);
-      transition: transform .25s ease-out;
-    }
+    transition: settings.$linkTran;
+    padding: 0.1em;
+  }
+  a:hover {
+    color: settings.$background;
+    background-color: settings.$accent;
   }
 }
 
 ul {
   text-align: left;
   li {
-    margin: 0.5em 0;
+    margin-bottom: 1em;
   }
 }
 
 .columns {
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 1em;
   column-count: 2;
   column-gap: 1em;
+  width: 100%;
+  
+  @media (max-width: 768px) {
+    column-count: 1;
+  }
 }
 
 .primary {
@@ -63,12 +41,44 @@ ul {
 }
 
 h1, h2, h3 {
-  color: settings.$accent;
+  color: settings.$highlight;
 }
 
 .username {
-  transition: color 200ms ease-in;
-  &:hover {
-    color: settings.$body;
+  font-size: 2em;
+  font-weight: 600;
+  margin: .5em 0;
+  color: settings.$body;
+  span {
+    color: settings.$accent;
+    transition: color 200ms ease-in;
+  }
+  span:hover {
+    color: settings.$highlight;
+  }
+}
+
+.fanfic {
+  text-align: left;
+  margin: 1em 0;
+  .title {
+    a {      
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+  }
+  .fandom {
+    color: settings.$highlight;
+  }
+  p {
+    span {
+      color: settings.$highlight;
+    }
+    margin: 0.2em 0 0 0;
+  }
+  img {
+    height: 1em;
+    width: auto;
+    margin-left: 0.5em;
   }
 }

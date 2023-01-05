@@ -1,0 +1,15 @@
+@use '../static/settings.scss';
+
+.footer {
+  margin-bottom: 2em;
+  color: settings.$body;
+  a {
+    color: settings.$accent;
+    text-decoration: none;
+    transition: settings.$linkTran;
+    &:hover {
+      background-color: settings.$accent;
+      color: settings.$background;
+    }
+  }
+}

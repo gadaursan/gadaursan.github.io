@@ -3,6 +3,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
 }
 
 code {
@@ -11,5 +12,5 @@ code {
 }
 
 html {
-  background-image: url('./static/seamless_paper_texture.png');
+  background-image: url('./static/bg2.png');
 }
