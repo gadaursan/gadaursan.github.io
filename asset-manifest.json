@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.126bea9d.css",
-    "main.js": "/static/js/main.6da05c9c.js",
-    "static/media/seamless_paper_texture.png": "/static/media/seamless_paper_texture.f9de7dc9de3487a5a4da.png",
+    "main.css": "/static/css/main.ca590157.css",
+    "main.js": "/static/js/main.e953b6f0.js",
     "static/media/sissel img.png": "/static/media/sissel img.9c55e4ba60957bdc7aae.png",
+    "static/media/bg2.png": "/static/media/bg2.be874cb1d1d30917df99.png",
     "static/media/ao3.svg": "/static/media/ao3.03d7b61c12bb6a6d914eded204de6b96.svg",
     "static/media/tumblr.svg": "/static/media/tumblr.8799a17c84909a448b055ca65a561e20.svg",
     "index.html": "/index.html",
-    "main.126bea9d.css.map": "/static/css/main.126bea9d.css.map",
-    "main.6da05c9c.js.map": "/static/js/main.6da05c9c.js.map"
+    "static/media/lock-solid.svg": "/static/media/lock-solid.6e2b2c49a556c24d5116926bb845c70a.svg",
+    "main.ca590157.css.map": "/static/css/main.ca590157.css.map",
+    "main.e953b6f0.js.map": "/static/js/main.e953b6f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.126bea9d.css",
-    "static/js/main.6da05c9c.js"
+    "static/css/main.ca590157.css",
+    "static/js/main.e953b6f0.js"
   ]
 }
