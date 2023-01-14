@@ -8,7 +8,7 @@ const Home = () => {
     <React.Fragment>
       <div className='username'>this is <span>gadaursan</span></div>
       <div className="content">
-        Hi. I write code, fics, and draw. Also I archive fandom things.
+        Hi. I code, write, and draw. Also I archive fandom things.
       </div>
       <LinksOut />
     </React.Fragment>

@@ -24,6 +24,8 @@
   @media (max-width: 576px) {
     width: unset;
     margin: 0;
+    background: linear-gradient(rgba(#000, 0), rgba(settings.$background, 0.5) 300px);
+    backdrop-filter: none;
   }
 }
 

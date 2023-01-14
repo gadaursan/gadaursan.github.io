@@ -14,6 +14,16 @@ const CodingProjects = () => {
               Ao3 Tweet Builder
             </a> - Code-free tool to construct HTML for fake Tweets on Ao3 fics
           </li>
+          <li>
+            <a href="https://archiveofourown.org/works/22517134">
+              Repository: Twitter
+            </a> - Documentation for a CSS work skin on Ao3 to simulate fake Twitter posts
+          </li>
+          <li>
+            <a href="https://archiveofourown.org/works/8631214">
+              Repository
+            </a> - Compilation of CSS work skins to use on Ao3
+          </li>
         </ul>
       </div>
     </React.Fragment>
