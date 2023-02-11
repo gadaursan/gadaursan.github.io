@@ -27,7 +27,6 @@ const WORKS: IFic[] = [
     tags: 'AU, Fantasy',
     summary: 'Susato and Souseki are brought before the Ishgardian Tribunal on account of suspected heresy, and to clear their charges, they agree to a trial by combat. Ryuunosuke arriving just in time to fight for Souseki is an encouraging turn of events, but they encounter a man from another land, armed with a scythe.',
     series: ['dgs ffxiv au', '2739091'],
-    locked: true,
   },
   {
     title: 'Severance',
@@ -38,7 +37,6 @@ const WORKS: IFic[] = [
     tags: 'AU, Fantasy',
     summary: 'An unfortunate run-in with a noble and a magic accident somehow lands Ryuunosuke Naruhodou in the arms of one Kazuma Asougi, who\'s convinced that Ryuunosuke is the kingdom\'s missing prince and a possible last hope to vanquish the encroaching corruption. Ryuunosuke asked for absolutely none of this.',
     series: ['dgs ffxiv au', '2739091'],
-    locked: true,
   },
   {
     title: 'praise the blessed one',
@@ -48,7 +46,6 @@ const WORKS: IFic[] = [
     ships: 'Kazuma/Ryuunosuke',
     tags: 'AU, Fantasy',
     summary: 'An unfortunate run-in with a noble and a magic accident somehow lands Ryuunosuke Naruhodou in the arms of one Kazuma Asougi, who\'s convinced that Ryuunosuke is the kingdom\'s missing prince and a possible last hope to vanquish the encroaching corruption. Ryuunosuke asked for absolutely none of this.',
-    locked: true,
   },
   {
     title: 'don’t force your excessive thoughts on me',
@@ -58,7 +55,6 @@ const WORKS: IFic[] = [
     ships: 'Dabi/Hawks',
     tags: 'AU, Sci-Fi, Mecha',
     summary: 'A short story of Dabi and Hawks in a mecha anime setting. Lots of pseudo-science jargon, angsty with a happy ending. Written for DabiHawks Week 2021.',
-    locked: true,
   },
   {
     title: 'Rieducare',
@@ -130,7 +126,6 @@ const WORKS: IFic[] = [
     tags: 'Canon Divergence, Post-Apocalypse, Post-Canon',
     summary: 'Every waking hour was a reminder of the bleeding form that was wasted so needlessly, because the humans couldn\'t accept them, couldn\'t accept him. There was little left to tie him down to this earth, so raze it down he shall. A collection of small ficlets for an AU in continuation of the bad future Ai foresaw, and the war raged on until it lost all meaning.',
     series: ['0xS74RDUS7', '1493597'],
-    locked: true,
   },
   {
     title: 'Heaven\'s Fall',
