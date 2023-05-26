@@ -27,6 +27,7 @@ const WORKS: IFic[] = [
     tags: 'AU, Fantasy',
     summary: 'Susato and Souseki are brought before the Ishgardian Tribunal on account of suspected heresy, and to clear their charges, they agree to a trial by combat. Ryuunosuke arriving just in time to fight for Souseki is an encouraging turn of events, but they encounter a man from another land, armed with a scythe.',
     series: ['dgs ffxiv au', '2739091'],
+    locked: true,
   },
   {
     title: 'Severance',
@@ -37,6 +38,7 @@ const WORKS: IFic[] = [
     tags: 'AU, Fantasy',
     summary: 'An unfortunate run-in with a noble and a magic accident somehow lands Ryuunosuke Naruhodou in the arms of one Kazuma Asougi, who\'s convinced that Ryuunosuke is the kingdom\'s missing prince and a possible last hope to vanquish the encroaching corruption. Ryuunosuke asked for absolutely none of this.',
     series: ['dgs ffxiv au', '2739091'],
+    locked: true,
   },
   {
     title: 'praise the blessed one',
@@ -46,6 +48,7 @@ const WORKS: IFic[] = [
     ships: 'Kazuma/Ryuunosuke',
     tags: 'AU, Fantasy',
     summary: 'An unfortunate run-in with a noble and a magic accident somehow lands Ryuunosuke Naruhodou in the arms of one Kazuma Asougi, who\'s convinced that Ryuunosuke is the kingdom\'s missing prince and a possible last hope to vanquish the encroaching corruption. Ryuunosuke asked for absolutely none of this.',
+    locked: true,
   },
   {
     title: 'don’t force your excessive thoughts on me',
@@ -105,6 +108,7 @@ const WORKS: IFic[] = [
     ships: 'Yusaku/Ryouken',
     tags: 'Post-Canon, Domestic Fluff',
     summary: 'To revitalize Link Vrains\' player base, SOL introduces player housing, but they underestimated just how much of a demand housing would be. In light of the major shortage, Revolver takes drastic measures to get his hands on a plot: marrying Playmaker in Link Vrains. Written for Datastorm December 2019',
+    locked: true,
   },
   {
     title: 'ga//antry',
