@@ -17,8 +17,7 @@ const Fandoms = () => {
       <h1>Fandoms</h1>
       <div className="content">
         <p>
-          If you don't really like these,
-          I don't think we'll get along very well.
+          If you don't really like these, I don't think we'll get along very well.
         </p>
         <h3>Primary</h3>
         <ul className='primary'>
@@ -36,6 +35,7 @@ const Fandoms = () => {
             </li>
           )}
         </ul>
+        <p>...and many others! I'm just lazy and didn't feel like listing them all.</p>
       </div>
     </React.Fragment>
   );

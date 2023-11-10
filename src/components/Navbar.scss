@@ -21,6 +21,7 @@
     color: settings.$body;
     vertical-align: bottom;
     transition: color 2s ease-out, transform .25 ease-out;
+    -webkit-tap-highlight-color: transparent;
   }
   a:hover {
     color: settings.$background;
@@ -45,6 +46,7 @@
 }
 
 .homeIcon {
+  -webkit-tap-highlight-color: transparent;
   img {
     height: 100px;
     width: auto;

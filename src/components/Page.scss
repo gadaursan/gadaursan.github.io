@@ -3,7 +3,8 @@
 .content {
   max-width: 40em;
   margin: 0 auto 3em;
-  color: settings.$body;  
+  color: settings.$body;
+  line-height: 1.5em;
   a {
     color: settings.$accent;
     text-decoration: none;
@@ -43,6 +44,10 @@ ul {
 
 h1, h2, h3 {
   color: settings.$highlight;
+}
+
+.description {
+  max-width: 500px;
 }
 
 .username {

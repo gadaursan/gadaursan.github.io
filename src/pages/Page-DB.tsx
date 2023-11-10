@@ -40,45 +40,54 @@ const PAGES = [
 
 const OUTLINKS = [
   {
-    label: 'AO3',
+    label: 'Archive of Our Own',
     to: 'https://archiveofourown.org/users/gadaursan',
-    icon: ICONS.ao3
+    icon: ICONS.pen,
   },
   {
-    label: 'Tumblr',
+    label: 'Tumblr (Art Pre-2021)',
     to: 'https://gadaursan.tumblr.com/',
-    icon: ICONS.tumblr
+    icon: ICONS.tumblr,
+  },
+  {
+    label: 'Tumblr (Blog)',
+    to: 'https://phantom-dare.tumblr.com/',
+    icon: ICONS.tumblr,
+  },
+  {
+    label: 'Twitter/X',
+    to: 'https://twitter.com/minjonettes',
+    icon: ICONS.twitter,
+  },
+  {
+    label: 'Fanlore',
+    to: 'https://fanlore.org/wiki/User:Gadaursan',
+    icon: ICONS.magnifying_glass,
   }
 ]
 
 const FANDOMS = [
   {label: 'Final Fantasy XIV', priority: true,},
   {label: 'The Great Ace Attorney', priority: true},
-  {label: 'Kingdom Hearts', priority: true},
-  {label: 'Ace Attorney'},
+  {label: 'Kingdom Hearts'},
+  {label: 'Ace Attorney', priority: true},
   {label: 'Acca 13'},
   {label: 'Avatar: The Last Airbender'},
   {label: 'Black Butler'},
-  {label: 'Batman and the Bat Family'},
+  {label: 'DC Comics'},
   {label: 'Delicious in Dungeon'},
+  {label: 'Detective Conan', priority: true},
   {label: 'D.Gray-Man'},
   {label: 'Code Geass'},
-  {label: 'Detective Lupin'},
   {label: 'Fire Emblem: Fates'},
   {label: 'Fire Emblem: Awakening'},
   {label: 'Gundam'},
-  {label: 'Free!'},
   {label: 'Yuri on Ice!'},
   {label: 'Yu-Gi-Oh 5Ds'},
   {label: 'Yu-Gi-Oh VRAINs'},
-  {label: 'Pokemon'},
   {label: 'Promare'},
-  {label: 'Hunter x Hunter'},
-  {label: 'Mawaru Penguindrum'},
   {label: 'Reborn!'},
-  {label: 'Parks and Recreation'},
-  {label: 'How to Train Your Dragon'},
-  {label: 'Hoshiai no Sora'},
+  {label: 'Spy x Family'},
   {label: 'Fullmetal Alchemist'},
 ]
 

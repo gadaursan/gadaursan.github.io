@@ -4,20 +4,60 @@
   display: flex;
   justify-content: center;
   gap: 1em;
-  margin: 1.5em;
-}
-
-.button {
-  padding: 0.7em;
-  border-radius: 50%;
-  background-color: rgba(settings.$accent, 0.5);
-  transition: background-color 200ms ease-in;
-  &:hover {
-    background-color: settings.$accent;
+  max-width: 20em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
+.button {
+  border-radius: 2em;
+  border: 1px solid rgba(settings.$accent, 0.5);
+  transition: border-color 200ms ease-in;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0.25em;
+  &:hover {
+    border: 1px solid settings.$accent;
+
+    .buttonIconContainer {
+      background-color: settings.$accent;
+    }
+
+    .buttonLabel {      
+      color: settings.$body;
+    }
+
+    .buttonIcon {
+      filter: invert(1);
+    }
+  }
+}
+
+.buttonIconContainer {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  padding: 0.75em;
+  background-color: rgba(settings.$accent, 0.5);
+  transition: background-color 200ms ease-in;
+}
+
 .buttonIcon {
-  width: 1.7em;
-  height: auto;
+  height: 1em;
+  width: auto;
+  transition: filter 200ms ease-in;
+}
+
+.buttonLabel {
+  color: settings.$accent;
+  transition: color 200ms ease-in;
+  flex: 1;
+  padding: 0.7em 1em;
 }

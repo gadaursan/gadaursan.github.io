@@ -11,12 +11,15 @@ const LinksOut = () => {
     target='_blank'
   >
     <div className='button'>
-      <img
-        draggable={false}
-        className='buttonIcon'
-        src={link.icon}
-        alt={link.label}
-      />
+      <div className='buttonIconContainer'>
+        <img
+          className='buttonIcon'
+          draggable={false}
+          src={link.icon}
+          alt={link.label}
+        />
+      </div>
+      <div className='buttonLabel'>{link.label}</div>
     </div>
   </a>
   )
