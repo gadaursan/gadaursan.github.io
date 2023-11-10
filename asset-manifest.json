@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.316524dc.css",
-    "main.js": "/static/js/main.f868f313.js",
+    "main.css": "/static/css/main.6e13f113.css",
+    "main.js": "/static/js/main.e8ebca60.js",
     "static/media/sissel img.png": "/static/media/sissel img.9c55e4ba60957bdc7aae.png",
     "static/media/bg2.png": "/static/media/bg2.be874cb1d1d30917df99.png",
-    "static/media/ao3.svg": "/static/media/ao3.03d7b61c12bb6a6d914eded204de6b96.svg",
+    "static/media/twitter.svg": "/static/media/twitter.d1e94b10c8be18b24eb8b7b627f5e593.svg",
     "static/media/tumblr.svg": "/static/media/tumblr.8799a17c84909a448b055ca65a561e20.svg",
     "index.html": "/index.html",
+    "static/media/pen-fancy-solid.svg": "/static/media/pen-fancy-solid.436c4131ff265b59ca30f8e65035eb42.svg",
+    "static/media/magnifying-glass-solid.svg": "/static/media/magnifying-glass-solid.74f26300bce626d2778ec447ce48ef7e.svg",
     "static/media/lock-solid.svg": "/static/media/lock-solid.6e2b2c49a556c24d5116926bb845c70a.svg",
-    "main.316524dc.css.map": "/static/css/main.316524dc.css.map",
-    "main.f868f313.js.map": "/static/js/main.f868f313.js.map"
+    "main.6e13f113.css.map": "/static/css/main.6e13f113.css.map",
+    "main.e8ebca60.js.map": "/static/js/main.e8ebca60.js.map"
   },
   "entrypoints": [
-    "static/css/main.316524dc.css",
-    "static/js/main.f868f313.js"
+    "static/css/main.6e13f113.css",
+    "static/js/main.e8ebca60.js"
   ]
 }
