@@ -7,7 +7,14 @@ import {IFic} from './Fics-DB'
 const FanficBlock = ({work}:{work: IFic}) => (
   <div className='fanfic'>
     <div className='title'>
-      <a href={`https://archiveofourown.org/works/${work.id}`}>{work.title}</a> ({work.year})
+      <a
+        rel='noopener'
+        target='_blank'
+        href={`https://archiveofourown.org/works/${work.id}`}
+      >
+        {work.title}
+      </a>
+      &nbsp;({work.year})
       {work.locked && <img draggable={false} src={ICONS.lock} />}
     </div>
     <p className='fandom'>{work.fandom.map(f => f).join(', ')}</p>

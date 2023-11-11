@@ -3,12 +3,20 @@ import React from 'react'
 import './LinksOut.scss'
 import {OUTLINKS} from '../pages/Page-DB'
 
-const LinksOut = () => {
-  const links = OUTLINKS.map((link) =>
+interface ILinksOut {
+  isTruncated?: boolean
+}
+
+const LinksOut:React.FC<ILinksOut> = ({
+  isTruncated = false,
+}) => {
+  const filteredLinks = isTruncated ? OUTLINKS.filter((link) => link.priority === true) : OUTLINKS
+  const renderedLinks = filteredLinks.map((link) =>
   <a
     href={link.to}
     key={link.to}
     target='_blank'
+    rel='noopener'
   >
     <div className='button'>
       <div className='buttonIconContainer'>
@@ -26,7 +34,7 @@ const LinksOut = () => {
 
   return (
     <div className="linksOut">
-      {links}
+      {renderedLinks}
     </div>
   )
 }

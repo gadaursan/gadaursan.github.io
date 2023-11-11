@@ -10,7 +10,7 @@ const Home = () => {
       <div className="content">
         <p>Hi. I code, write, and draw. Also I archive fandom things.</p>
       </div>
-      <LinksOut />
+      <LinksOut isTruncated/>
     </React.Fragment>
   );
 }

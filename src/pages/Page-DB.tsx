@@ -1,8 +1,8 @@
 
 import Home from './Home'
 import Fandoms from './Fandoms'
-import Works from './Works'
-import CodingProjects from './Code'
+import Portal from './Portals'
+import Projects from './Projects'
 import Fanfics from './Fanfics'
 import {ICONS} from '../static/Icons'
 
@@ -26,15 +26,15 @@ const PAGES = [
   },
   {
     isNavbar: true,
-    to: '/code',
-    label: 'Code',
-    component: <CodingProjects />
+    to: '/projects',
+    label: 'Projects',
+    component: <Projects />
   },
   {
     isNavbar: true,
-    to: '/works',
-    label: 'Other',
-    component: <Works />
+    to: '/portal',
+    label: 'Links',
+    component: <Portal />
   },
 ]
 
@@ -43,6 +43,13 @@ const OUTLINKS = [
     label: 'Archive of Our Own',
     to: 'https://archiveofourown.org/users/gadaursan',
     icon: ICONS.pen,
+    priority: true,
+  },
+  {
+    label: 'raindrop.io (Fic Recs)',
+    to: 'https://raindrop.io/minjonettes',
+    icon: ICONS.droplet,
+    priority: true,
   },
   {
     label: 'Tumblr (Art Pre-2021)',
@@ -53,11 +60,13 @@ const OUTLINKS = [
     label: 'Tumblr (Blog)',
     to: 'https://phantom-dare.tumblr.com/',
     icon: ICONS.tumblr,
+    priority: true,
   },
   {
     label: 'Twitter/X',
     to: 'https://twitter.com/minjonettes',
     icon: ICONS.twitter,
+    priority: true,
   },
   {
     label: 'Fanlore',
