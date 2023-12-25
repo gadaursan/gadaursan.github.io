@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.596206bd.css",
-    "main.js": "/static/js/main.8769c563.js",
+    "main.js": "/static/js/main.fed023a5.js",
     "static/media/sissel img.png": "/static/media/sissel img.9c55e4ba60957bdc7aae.png",
     "static/media/bg2.png": "/static/media/bg2.be874cb1d1d30917df99.png",
     "static/media/twitter.svg": "/static/media/twitter.d1e94b10c8be18b24eb8b7b627f5e593.svg",
     "static/media/tumblr.svg": "/static/media/tumblr.8799a17c84909a448b055ca65a561e20.svg",
     "index.html": "/index.html",
     "static/media/pen-fancy-solid.svg": "/static/media/pen-fancy-solid.436c4131ff265b59ca30f8e65035eb42.svg",
+    "static/media/heart-solid.svg": "/static/media/heart-solid.fd446bf07018875e27f62fb8a66c2869.svg",
     "static/media/droplet-solid.svg": "/static/media/droplet-solid.36f85f3c170698eaed1942b4e436dbcc.svg",
     "static/media/magnifying-glass-solid.svg": "/static/media/magnifying-glass-solid.74f26300bce626d2778ec447ce48ef7e.svg",
     "static/media/lock-solid.svg": "/static/media/lock-solid.6e2b2c49a556c24d5116926bb845c70a.svg",
     "main.596206bd.css.map": "/static/css/main.596206bd.css.map",
-    "main.8769c563.js.map": "/static/js/main.8769c563.js.map"
+    "main.fed023a5.js.map": "/static/js/main.fed023a5.js.map"
   },
   "entrypoints": [
     "static/css/main.596206bd.css",
-    "static/js/main.8769c563.js"
+    "static/js/main.fed023a5.js"
   ]
 }
