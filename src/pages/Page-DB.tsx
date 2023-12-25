@@ -46,10 +46,15 @@ const OUTLINKS = [
     priority: true,
   },
   {
-    label: 'raindrop.io (Fic Recs)',
+    label: 'Fic Recs (Notion)',
+    to: 'https://quirky-meat-50c.notion.site/1ad15048f8544c7396e315ffd01db4cc?v=d12c998cf4b348c8ac697db866657369',
+    icon: ICONS.heart,
+    priority: true,
+  },
+  {
+    label: 'raindrop.io (Fic Recs Backup)',
     to: 'https://raindrop.io/minjonettes',
     icon: ICONS.droplet,
-    priority: true,
   },
   {
     label: 'Tumblr (Art Pre-2021)',

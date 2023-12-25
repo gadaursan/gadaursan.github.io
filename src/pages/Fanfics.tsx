@@ -8,14 +8,14 @@ const FanficBlock = ({work}:{work: IFic}) => (
   <div className='fanfic'>
     <div className='title'>
       <a
-        rel='noopener'
+        rel='noreferrer'
         target='_blank'
         href={`https://archiveofourown.org/works/${work.id}`}
       >
         {work.title}
       </a>
       &nbsp;({work.year})
-      {work.locked && <img draggable={false} src={ICONS.lock} />}
+      {work.locked && <img alt='lock' draggable={false} src={ICONS.lock} />}
     </div>
     <p className='fandom'>{work.fandom.map(f => f).join(', ')}</p>
     <p><span>Ships:</span> {work.ships}</p>
