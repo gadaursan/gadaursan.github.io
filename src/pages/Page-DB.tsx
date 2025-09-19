@@ -68,12 +68,6 @@ const OUTLINKS = [
     priority: true,
   },
   {
-    label: 'Twitter/X',
-    to: 'https://twitter.com/minjonettes',
-    icon: ICONS.twitter,
-    priority: true,
-  },
-  {
     label: 'Fanlore',
     to: 'https://fanlore.org/wiki/User:Gadaursan',
     icon: ICONS.magnifying_glass,
